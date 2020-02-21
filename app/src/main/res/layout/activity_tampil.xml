@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:orientation="vertical"
+    tools:context=".ActivityTampil">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:weightSum="7">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="?actionBarSize"
+            android:layout_weight="3"
+            android:gravity="center_vertical"
+            android:text="NIK" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="?actionBarSize"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text=":" />
+
+        <TextView
+            android:id="@+id/tvnik"
+            android:layout_width="0dp"
+            android:layout_height="?actionBarSize"
+            android:layout_weight="3"
+            android:gravity="center_vertical"
+            android:text="1234577" />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:weightSum="7">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="?actionBarSize"
+            android:layout_weight="3"
+            android:gravity="center_vertical"
+            android:text="Nama Karyawan" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="?actionBarSize"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text=":" />
+
+        <TextView
+            android:id="@+id/tv_namakaryawan"
+            android:layout_width="0dp"
+            android:layout_height="?actionBarSize"
+            android:layout_weight="3"
+            android:gravity="center_vertical"
+            android:text="nama" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:weightSum="7">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="?actionBarSize"
+            android:layout_weight="3"
+            android:gravity="center_vertical"
+            android:text="Jenis Kelamin" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="?actionBarSize"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text=":" />
+
+        <TextView
+            android:id="@+id/tv_jeniskelamin"
+            android:layout_width="0dp"
+            android:layout_height="?actionBarSize"
+            android:layout_weight="3"
+            android:gravity="center_vertical"
+            android:text="Laki - Laki" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:weightSum="7">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="?actionBarSize"
+            android:layout_weight="3"
+            android:gravity="center_vertical"
+            android:text="Shift Kerja" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="?actionBarSize"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text=":" />
+
+        <TextView
+            android:id="@+id/tv_shiftkerja"
+            android:layout_width="0dp"
+            android:layout_height="?actionBarSize"
+            android:layout_weight="3"
+            android:gravity="center_vertical"
+            android:text="Shift" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:weightSum="7">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="?actionBarSize"
+            android:layout_weight="3"
+            android:gravity="center_vertical"
+            android:text="Status Perkawinan" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="?actionBarSize"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text=":" />
+
+        <TextView
+            android:id="@+id/tv_status"
+            android:layout_width="0dp"
+            android:layout_height="?actionBarSize"
+            android:layout_weight="3"
+            android:gravity="center_vertical"
+            android:text="1234577" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:weightSum="7">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="?actionBarSize"
+            android:layout_weight="3"
+            android:gravity="center_vertical"
+            android:text="Upah + Tunjangan" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="?actionBarSize"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text=":" />
+
+        <TextView
+            android:id="@+id/tvupahtunjangan"
+            android:layout_width="0dp"
+            android:layout_height="?actionBarSize"
+            android:layout_weight="3"
+            android:gravity="center_vertical"
+            android:text="Upah + Tunjangan" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:background="@color/hijau"
+            android:id="@+id/btnkembali"
+            android:textColor="@color/puthi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kembali" />
+
+    </LinearLayout>
+
+</LinearLayout>
